@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Triangle Patterns</title>
+</head>
+<body>
+    <div class="main" style="text-align: center; font-family: Arial, sans-serif; letter-spacing: 2px;">
+        <h2>ASSIGNMENT # 1</h2>
+        <h2>TRIANGLE PATTERNS</h2>
+        <h3>BY</h3>
+        <h1>RAYYAN AHMAD</h1>
+        <h2>bsf23002999</h2>
+        <h2>0314-4352829</h2>
+        <h2>chrayyyan@gmail.com</h2>
+        <h1>Check Console for Triangle Patterns</h1>
+    </div>
+<script>
+console.log("Left Aligned Triangle");
+for (let i = 1; i <= 5; i++) {
+    console.log("*".repeat(i));
+}
+console.log("Inverted Left Triangle");
+for (let i = 5; i >= 1; i--) {
+    console.log("*".repeat(i));
+}
+console.log("Right Aligned Triangle");
+for (let i = 1; i <= 5; i++) {
+    console.log(" ".repeat(5 - i) + "*".repeat(i));
+}
+console.log("Pyramid Triangle");
+for (let i = 1; i <= 5; i++) {
+    console.log(" ".repeat(5 - i) + "*".repeat(2*i - 1));
+}
+</script>
+</body>
+</html>
